@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #0c636d;
+  letter-spacing: 1.3px;
+}
+
+section {
+  margin: 2rem 2rem;
+}
+
+h1 {
+  color: #0c636d;
+  font-weight: bold;
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+button {
+  background: #0c636d;
+  padding: 1rem 2rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  border: 1px solid #0c636d;
+}
+
+button:hover {
+  background: white;
+  color: #0c636d;
+}
+
+p {
+  margin: 1rem 0;
+  color: #7c9a9f;
+}
+
+header {
+  color: #0c636d;
+  padding: 2rem;
+  height: 4rem;
+}
+
+header span {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+header nav {
+  display: none;
+}
+
+header nav ul li {
+  display: inline;
+  cursor: pointer;
+}
+
+header nav ul li:hover {
+  color: #7c9a9f;
+}
+
+section.hero div.left img {
+  width: 100%;
+}
+
+section.hero div.right img {
+  height: 0;
+}
+
+section.main div.left div.digit-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1rem;
+  margin: 1rem 0;
+  border: 1px solid #7c9a9f;
+}
+
+section.main div.left div.digit-card p.card-digit {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #0c636d;
+  margin-right: 1rem;
+}
+
+section.cards-section div.card {
+  border: 1px solid #7c9a9f;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+section.cards-section div.card img {
+  width: 100%;
+  height: 20rem;
+}
+
+section.cards-section div.card p.card-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #0c636d;
+}
+
+section.process div.left {
+  margin-bottom: 4rem;
+}
+
+section.process div.right div.process-card {
+  margin-bottom: 2rem;
+}
+
+section.process div.right div.process-card p.process-heading {
+  color: #0c636d;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+section.process1 {
+  border: 1px solid #7c9a9f;
+  padding: 2rem;
+}
+
+section.process1 div img {
+  width: 100%;
+}
+
+section.contact-us {
+  background: #0c636d;
+  margin: 2rem 0;
+  padding: 2rem;
+}
+
+section.contact-us div.left h1 {
+  color: white;
+}
+
+section.contact-us div.right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.contact-us div.right button.light {
+  background: white;
+  color: #0c636d;
+  border: 1px solid white;
+  width: 100%;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+section.contact-us div.right button.light:hover {
+  background: #0c636d;
+  color: white;
+  border: 1px solid white;
+}
+
+section.contact-us div.right button.dark {
+  background: #0c636d;
+  color: white;
+  width: 100%;
+  border: 1px solid white;
+}
+
+section.contact-us div.right button.dark:hover {
+  background: white;
+  color: #0c636d;
+  border: 1px solid white;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 0;
+  }
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header nav ul li {
+    margin-left: 2rem;
+  }
+  section.hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+  section.hero div.left {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-right: 2rem;
+  }
+  section.hero div.right {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  section.hero div.right h1 {
+    margin-top: 0;
+  }
+  section.main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  section.main div.left {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    margin-right: 2rem;
+  }
+  section.main div.left div.digit-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 7rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 2rem;
+  }
+  section.main div.left div.digit-card p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  section.main div.right {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  section.cards-section {
+    padding-left: 0;
+    padding-right: 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -webkit-column-gap: 2rem;
+            column-gap: 2rem;
+  }
+  section.cards-section div.card {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  section.process {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section.process div.left {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-right: 2rem;
+  }
+  section.process div.right {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -webkit-column-gap: 2rem;
+            column-gap: 2rem;
+  }
+  section.process1 div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  section.process1 img {
+    width: 100%;
+  }
+  section.contact-us {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 1fr;
+        grid-template-columns: 2fr 1fr;
+  }
+  section.contact-us div.left {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    margin-right: 2rem;
+  }
+  section.contact-us div.right {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.contact-us div.right button.light,
+  section.contact-us div.right button.dark {
+    width: 100%;
+  }
+  section.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  section.footer div {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  section.footer div.right p {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  section {
+    margin: 2rem 4rem;
+  }
+  header {
+    padding: 1rem 4rem;
+  }
+  section.hero div.left {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  section.hero div.right {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  section.hero div.right button {
+    margin-bottom: 2rem;
+  }
+  section.hero div.right img {
+    height: 12rem;
+  }
+  section.contact-us {
+    padding: 4rem 4rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
